@@ -4,9 +4,8 @@ const mongoose = require("mongoose");
 require('custom-env').env(true)
 const cors = require("cors");
 const helmet = require("helmet");
-const apiRouter = express.Router();
 const { mongoDb } = require("./config/env.dev");
-const AnswerSchema = require("./models/answer");
+const AnswerSchema = require("./models/Answer");
 
 
 
