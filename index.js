@@ -30,6 +30,10 @@ app.post('/answer', async (req,res)=>{
     }
 })
 
+app.get('/test',(req,res)=>{
+    res.send("test")
+})
+
 mongoose.connect(
 	mongoDb,
 	{
