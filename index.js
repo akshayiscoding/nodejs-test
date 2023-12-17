@@ -22,7 +22,7 @@ app.post('/answer', async (req,res)=>{
     const body = new AnswerSchema(req.body);
     try {
         const data = await body.save();
-        res.json({ message: 'Answer sent to Akshay Successfully' });
+        res.json({ message: 'Answer sent to Akshay Successfully!!' });
 
     } catch (err) {
         console.log(err);
